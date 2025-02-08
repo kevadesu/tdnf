@@ -12,7 +12,8 @@ add_executable(${TDNF_BIN}
     main.c
 )
 
-target_link_libraries(${TDNF_BIN} PRIVATE
+target_link_libraries(${TDNF_BIN} 
+    PRIVATE
     ${LIB_TDNF_CLI}
     ${LIB_TDNF}
     solv
