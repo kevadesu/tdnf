@@ -6,6 +6,7 @@
  * of the License are located in the COPYING file of this distribution.
  */
 
+#include <rpm/rpmmacro.h>
 #include "includes.h"
 
 uid_t gEuid;
