@@ -18,6 +18,7 @@
  * Authors  : Priyesh Padmavilasom (ppadmavilasom@vmware.com)
  */
 
+#include <rpm/rpmmacro.h>
 #include "includes.h"
 
 uid_t gEuid;
