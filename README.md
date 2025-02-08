@@ -1,6 +1,8 @@
 # tdnf - tiny dandified yum
+## (the fork for [TylkoLinux](https://github.com/kevadesu/TylkoLinux))
 
-In order to compile, from the checkout directory, run the following
+This repository assumes that you have already installed TylkoLinux and RPM using the Einrichter scripts.
+Use this repository if you want to manually install Tiny Dandified YUM without using Einrichter.
 
 ```sh
 mkdir build && cd build
