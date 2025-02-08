@@ -15,7 +15,17 @@ add_executable(${TDNF_BIN}
 target_link_libraries(${TDNF_BIN}
     ${LIB_TDNF_CLI}
     ${LIB_TDNF}
+    PRIVATE
+    solv
+    solvext
 )
+
+# 
+# target_link_libraries(tdnf
+#     PRIVATE
+#     solv
+#     solvext
+# )
 
 set_target_properties(${TDNF_BIN} PROPERTIES OUTPUT_NAME tdnf)
 
