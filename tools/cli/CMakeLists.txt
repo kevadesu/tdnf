@@ -13,9 +13,9 @@ add_executable(${TDNF_BIN}
 )
 
 target_link_libraries(${TDNF_BIN}
+    PRIVATE
     ${LIB_TDNF_CLI}
     ${LIB_TDNF}
-    PRIVATE
     solv
     solvext
 )
